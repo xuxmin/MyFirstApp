@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyFirstApp</string>
+    <string name="show_name">昵称：</string>
+    <string name="edit_name">输入一个昵称</string>
+    <string name="show_gender">性别</string>
+    <string name="gender_man">男</string>
+    <string name="gender_women">女</string>
+    <string name="gender_other">其他</string>
+    <string name="brithday">生日</string>
+    <string name="email">邮箱</string>
+    <string name="phone_number">手机</string>
+    <string name="save">保存</string>
+    <string name="person_info">个人信息</string>
+    <string name="other">其他</string>
+</resources>
