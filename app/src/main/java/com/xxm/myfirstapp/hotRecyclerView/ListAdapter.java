@@ -11,7 +11,7 @@ import java.util.List;
 public class ListAdapter extends RecyclerView.Adapter {
 
     private List<HotData> mDataList = new ArrayList<>();
-
+    private int selectIndex;
 
     // Create ViewHolder
     @NonNull
@@ -60,5 +60,11 @@ public class ListAdapter extends RecyclerView.Adapter {
         }
     }
 
+    // 选中的方法
+    public void setSelectIndex(int position)
+    {
+        this.selectIndex = position;
+        notifyDataSetChanged();
+    }
 
 }

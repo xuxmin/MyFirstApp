@@ -45,5 +45,6 @@ public class ListViewHolder extends RecyclerView.ViewHolder {
         }
         mTitleTextView.setText(data.getTitle() + "");
         mHotValueTextView.setText(data.getHotValue() + "");
+
     }
 }

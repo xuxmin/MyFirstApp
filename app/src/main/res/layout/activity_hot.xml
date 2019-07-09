@@ -13,7 +13,7 @@
             android:hint="位置"
             android:textColorHint="#7fffffff"
             android:id="@+id/et_index"
-            android:inputType="numberDecimal"
+            android:inputType="number"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"

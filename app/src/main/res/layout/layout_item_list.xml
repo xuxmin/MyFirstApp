@@ -9,7 +9,7 @@
         android:id="@+id/no"
         android:layout_width="40dp"
         android:layout_height="match_parent"
-        android:layout_marginLeft="0dp"
+        android:layout_marginLeft="8dp"
         android:gravity="center_vertical"
         android:padding="1dp"
         android:textColor="#99ffffff"
