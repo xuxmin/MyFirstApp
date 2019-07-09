@@ -1,4 +1,4 @@
-package com.xxm.myfirstapp;
+package com.xxm.myfirstapp.hotRecyclerView;
 
 public class HotData {
     private int No;
@@ -29,5 +29,18 @@ public class HotData {
         this.No = no;
         this.Title = title;
         this.HotValue = hotValue;
+    }
+
+    // 向后移动一位
+    public void moveBack()
+    {
+        this.No = this.No + 1;
+    }
+
+    public void moveForward()
+    {
+        if (this.No > 1){
+            this.No = this.No - 1;
+        }
     }
 }

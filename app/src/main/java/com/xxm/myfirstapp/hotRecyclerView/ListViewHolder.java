@@ -1,4 +1,4 @@
-package com.xxm.myfirstapp;
+package com.xxm.myfirstapp.hotRecyclerView;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.w3c.dom.Text;
+import com.xxm.myfirstapp.R;
 
 public class ListViewHolder extends RecyclerView.ViewHolder {
 
@@ -39,6 +39,9 @@ public class ListViewHolder extends RecyclerView.ViewHolder {
         mNoTextView.setText(data.getNo() + "");
         if (data.getNo() <= 3){
             mNoTextView.setTextColor(Color.parseColor("#e6face15"));
+        }
+        else{
+            mNoTextView.setTextColor(Color.parseColor("#99ffffff"));
         }
         mTitleTextView.setText(data.getTitle() + "");
         mHotValueTextView.setText(data.getHotValue() + "");

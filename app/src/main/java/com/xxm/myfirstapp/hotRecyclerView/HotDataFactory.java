@@ -1,4 +1,6 @@
-package com.xxm.myfirstapp;
+package com.xxm.myfirstapp.hotRecyclerView;
+
+import com.xxm.myfirstapp.hotRecyclerView.HotData;
 
 import java.util.ArrayList;
 import java.util.List;

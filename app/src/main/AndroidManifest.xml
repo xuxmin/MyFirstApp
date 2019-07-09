@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".UserInfoActivity"></activity>
-        <activity android:name=".HotActivity"></activity>
+        <activity android:name=".hotRecyclerView.HotActivity"></activity>
     </application>
 
 </manifest>
